@@ -24,6 +24,8 @@ services:
       - APP_URL=http://192.100.100.246:8090
       - APP_TIMEZONE=Asia/Jakarta
       - APP_LOCALE=id
+      - APP_DEBUG=true
+      - WARN_DEBUG=false
       - MYSQL_PORT_3306_TCP_ADDR=mysql
       - MYSQL_PORT_3306_TCP_PORT=3306
       - MYSQL_DATABASE=snipe
